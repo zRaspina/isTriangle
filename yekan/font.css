@@ -1,0 +1,15 @@
+/* yekan font */
+@font-face {
+    font-family: "yekan";
+    src: url("Yekan.eot");
+    src: url("Yekan.eot?#iefix") format("embedded-opentype"),
+    url("Yekan.woff") format("woff"),
+    url("Yekan.ttf") format("truetype"),
+    url("Yekan.svg#BYekan") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+p, div, button, .button, h1, h2, h3, h4, h5, h6, #downloadButton {
+    font-family: "yekan", arial, helvetica, serif !important;
+}

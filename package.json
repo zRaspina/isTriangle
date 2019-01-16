@@ -1,0 +1,58 @@
+{
+  "name": "city-list-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "6.18.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "bootstrap": "^4.2.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-hot-loader": "3.0.0-beta.6",
+    "react-scripts": "2.1.3",
+    "react-test-renderer": "^16.7.0",
+    "reactstrap": "^7.0.2",
+    "webpack-combine-loaders": "2.0.3",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "scripts": {
+    "dev": "webpack -d --progress --watch --profile --json > compilation-stats.json --env.dev",
+    "start": "webpack-dev-server --progress --colors --inline --env.dev",
+    "build": "webpack -p --progress --env.prod",
+    "clean": "rimraf ./build"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "8",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-hot-loader": "^1.3.0",
+    "css-loader": "^0.28.5",
+    "eslint": "4.x",
+    "express": "^4.15.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.5.5"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
